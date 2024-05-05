@@ -2,9 +2,9 @@
 SQLite와 C++를 연동하기 (실패함)
 
 ## 파일 설명
--sj.txt : 명령 프롬프트로 SQLite DB를 만드는 코드입니다.
--sj.db : SQLite DB 파일입니다.
--sj.cpp : SQLite DB를 읽어 학생별 총점, 평균, 과목별 총점 평균을 구해서 출력하는 코드입니다.
+-sj.txt : 명령 프롬프트로 SQLite DB를 만드는 코드입니다.   
+-sj.db : SQLite DB 파일입니다.   
+-sj.cpp : SQLite DB를 읽어 학생별 총점, 평균, 과목별 총점 평균을 구해서 출력하는 코드입니다.   
 
 ## 에러 히스토리
 1. DB파일을 만드는데는 성공했으나, C++에서 sqlite3.h 파일을 읽어오지 못함.
