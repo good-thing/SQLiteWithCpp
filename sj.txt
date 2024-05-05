@@ -1,0 +1,12 @@
+create table score(
+	name text primary key not null,
+	math integer not null,
+	english integer not null
+);
+
+insert into score (name, math, english) values ('John', 90, 80);
+insert into score (name, math, english) values ('Ash', 70, 75);
+
+select * from score;
+
+.quit
